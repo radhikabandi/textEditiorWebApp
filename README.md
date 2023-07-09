@@ -7,9 +7,10 @@ The application is a web text editor where the user can create notes or code sni
 AS A developer
 I WANT to create notes or code snippets with or without an internet connection
 SO THAT I can reliably retrieve them for later use
-###### 
-Acceptance Criteria
-GIVEN a text editor web application
+
+###### Acceptance Criteria
+
+`GIVEN a text editor web application
 WHEN I open my application in my editor
 THEN I should see a client server folder structure
 WHEN I run `npm run start` from the root directory
@@ -34,9 +35,8 @@ WHEN I register a service worker
 THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
 WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
-
-
+`
 ###### The URL of the GitHub repository -
  https://github.com/radhikabandi/textEditiorWebApp
 
-###### Deployed here-  
+Deployed here-  
