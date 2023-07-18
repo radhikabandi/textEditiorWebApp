@@ -12,6 +12,10 @@
     "install": "cd client && npm install",
     "client": "cd client && npm start"
   },
+   "engines" :{
+    "node": "20.x",
+    "npm": "9.x"
+  },
   "keywords": [],
   "author": "radhika bandi",
   "license": "ISC",
